@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/signup.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        
+        <title>Fraud Detector</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Join us today..</h2>
+            <h3>We would love to have you join our community!!</h3>
+
+            <form action="/verify" method="POST">
+                <button type="submit" class="button"><img src="/static/images/icons8-google-48.png" style="height: 30px; margin-left: -40px; margin-top: -1px; position: absolute;">Sign up with Google</button>
+                <div class="line"></div>
+                <h3 class="or">OR</h3>
+                <div class="line-1"></div>
+
+                <div class="input-name">
+                <input type="text" placeholder="Enter your full name" name="fullname" required class="name">
+                </div>
+                <div class="input-email">
+                <input type="email" placeholder="Enter your email" name="email" required class="email" >
+                </div>
+                <div class="input-email">
+                    <input type="number" placeholder="Enter your phone number" name="phone-number" required class="email" >
+                    </div>
+                <div class="input-password">
+                <input type="password" placeholder="Input your password" name="password" required class="password">
+                </div>
+                <div class="input-password">
+                    <input type="password" placeholder="Confirm password" name="password2" required class="password">
+                    </div>
+                    <input type="submit" value="Sign up">
+                <div class="already-have-an-acc">
+                    <h5>Already have an account?<span><a href="{{url_for('login')}}">Log in</a></span></h5>
+                </div>
+            </form>
+            <a href="/hello">Register</a>
+            <div>
+    </body>
+</html>

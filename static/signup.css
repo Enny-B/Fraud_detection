@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smmoth;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    background: url(/static/images/Asset\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    align-items: left;
+    margin-top: 150px;
+}
+
+.container h2{
+    font-size: 60px;
+}
+
+.container h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.button{
+    width: 350px;
+    height: 50px;
+    padding: 12px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    border: 1px solid #d5d3d3;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color: rgb(211, 245, 245);
+}
+.line{
+    height: 1px;
+    background: black;
+    display: flex;
+    width: 100px;
+    margin-top: 26px;
+    margin-left: 35px;
+    position: absolute;
+}
+
+.or{
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.line-1{
+    height: 1px;
+    background: black;
+    display: flex;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.input-name{
+    margin-top: 30px;
+}
+
+.name{
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-email{
+    margin-top: 30px;
+}
+
+.email{
+    height: 60px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-password{
+    margin-top: 30px;
+}
+
+.password{
+    height: 60px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-container{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 120px;
+}
+
+.button-container button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+}
+
+.button-container a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button-container button:hover{
+    background-color: rgb(115, 115, 168);
+}
+
+.already-have-an-acc{
+    margin-top: 30px;
+}
+
+.already-have-an-acc h5{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.already-have-an-acc span{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.already-have-an-acc a{
+    gap: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.already-have-an-acc a:hover{
+    color: rgb(149, 149, 175);
+    text-decoration: underline;
+}

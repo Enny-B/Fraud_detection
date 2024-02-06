@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smmoth;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    background: url(/static/images/Asset\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.wrapper{
+    background: transparent;
+    border: 3px solid #312355;
+    width: 800px;
+    height: 800px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 30px;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+.welcome{
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.we-have-missed{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bx-wink-smile{
+    margin-left: 150px;
+    margin-top: -55px;
+    font-size: 40px;
+    position: absolute;
+}
+
+.input-username{
+    margin-top: 30px;
+}
+
+.user-name{
+    height: 60px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-password{
+    margin-top: 30px;
+}
+
+.pass-word{
+    height: 60px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.forgot-password{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.forgot-password span {
+    color:rgb(207, 207, 207);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.forgot-password a{
+    text-decoration: none;
+}
+
+.forgot-password span:hover{
+    color: rgb(149, 149, 175);
+}
+
+.button-div{
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-div button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.button-div button:hover{
+    background-color: rgb(115, 115, 168);
+}
+
+.create-user{
+    margin-top: 50px;
+}
+
+.create-user span{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.create-user a{
+    text-decoration: none;
+    color:rgb(207, 207, 207);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.create-user a:hover{
+    color: rgb(149, 149, 175);
+}
